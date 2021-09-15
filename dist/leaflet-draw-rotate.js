@@ -917,6 +917,7 @@
 
       this._handlersGroup = null;
       this._rect = null;
+      this._rectShape = null;
       this._handlers = [];
       this._handleLine = null;
     },
@@ -957,6 +958,7 @@
 
       this._handlersGroup = null;
       this._rect = null;
+      this._rectShape = null;
       this._handlers = [];
     },
 

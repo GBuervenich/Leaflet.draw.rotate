@@ -966,6 +966,7 @@ L.Handler.PathTransform = L.Handler.extend({
     // ui elements
     this._handlersGroup = null;
     this._rect = null;
+	this._rectShape = null;
     this._handlers = [];
     this._handleLine = null;
   },
@@ -1008,6 +1009,7 @@ L.Handler.PathTransform = L.Handler.extend({
       .off('dragend', this._onDragEnd, this);
     this._handlersGroup = null;
     this._rect = null;
+	this._rectShape = null;
     this._handlers = [];
   },
 
